@@ -1,0 +1,110 @@
+
+  body {
+    background-image: url("https://mobimg.b-cdn.net/pic/v2/gallery/preview/igry-roboty-18947.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+  }
+  button{
+    color:lightgreen;
+    height: 35px;
+    margin-left: 10px;
+    margin-top: 15px;
+    background-color: rgb(86, 99, 124);
+  }
+  input, Form{
+    font-size: smaller;
+    margin-block-end: 30px;
+    margin-block-start: 30px;
+  }
+  .postcompra{
+    margin-top: 15px;
+    color:lightgreen;
+    margin-left: 20px;
+    font-size: large;
+    text-align: center;
+  }
+  .imagen {
+    block-size: 320px;
+  }
+  .menu {
+  color: lightgreen;
+  margin-right: 5px;
+  font-size: large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+  text-decoration: none;
+  }
+  .aux{
+    text-align: center;
+  }
+  .product, .mensajereg{
+    color:white;
+  }
+  .formulario {
+    margin-block-end: 20px;
+    font-size: smaller;
+    margin-right: initial;
+  }
+  .mensajereg{
+    margin-right: 60%;
+    font-size: small;
+  }
+  .boton, input {
+    margin-block-start: 5px;
+    margin-block-end: 5px;
+    margin-left: 15px;
+    color:lightgreen;
+    margin-right: 10px;
+    
+  }
+  .presentacion{
+    font-size: large;
+    margin-left: 15px;
+    margin-right: 40%;
+    color: white;
+  }
+  .intro{
+    font-size: x-large;
+    text-align: left;
+    margin-right: 40%;
+    color: lightcyan;
+    margin-block-start:30px ;
+    margin-left: 20px;
+  }
+  .login, .bloqueregistro, .reg{
+    color: rgb(109, 106, 106);
+    margin-block-start: 20px;
+    font-size: large;
+  }
+
+ 
+ .volver{
+  text-decoration: none;
+  color: grey;
+ }
+ .lab{
+   color:white;
+   font-size: small;
+   margin-left: 15px;
+   width: 335px;
+   
+ }
+ .titulo{
+   color: lightblue;
+   text-align: left;
+   margin-left: 20px;
+ }
+ .App{
+   color: white;
+   margin-left: 10px;
+   margin-block-end: 20px;
+ }
+ .titulo1{
+   font-size: x-large;
+   color:gray;
+   margin-block-start: 20px;
+ }
+ .titulo2, .titulo3, .titulo4{
+   font-size: medium;
+ }
