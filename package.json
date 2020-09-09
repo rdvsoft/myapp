@@ -1,5 +1,6 @@
 {
-  "name": "reacttps",
+  "name": "ruben-app",
+  "homepage": "https://www.apptecno.com.ar/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

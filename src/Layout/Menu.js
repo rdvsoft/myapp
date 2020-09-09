@@ -6,7 +6,7 @@ function Menu() {
         <div>
             <Navbar bg="light" expand="lg" style={{marginBottom:'10px'}}>
                 <Navbar.Brand className="navMenu" as={Link} to="/Home">APP-TECNO</Navbar.Brand>
-                <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                <Navbar.Toggle aria-controls="basic-navbar-nav" /> 
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="navMenu">
                         <Nav.Link as={Link} to="/GetProduct">Productos</Nav.Link>

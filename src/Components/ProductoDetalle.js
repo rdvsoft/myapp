@@ -15,7 +15,7 @@ const ProductoDetalle = (props)=> {
             })
             
       }, []); 
-   
+   /*Efecto equivalente a un componentDidMount*/
     return (
         <>
         

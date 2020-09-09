@@ -17,8 +17,11 @@ function ProductoEditar(props){
             })
     }, []); 
     const handleChange = (e)=>{
-        const target = e.target;
-        const value = target.value;
+        //Identifica el campo donde el usuario está escribiendo y lo guarda en la variable target
+        const target = e.target; 
+        //Captura cada caracter ingresado, en el campo identificado anteriormente, y lo guarda en value
+        const value = target.value; 
+        //Captura el "name" del campo identificado y lo guarda en name
         const name = target.name;
         
         setDatos({
@@ -37,7 +40,6 @@ function ProductoEditar(props){
             sku:datos.sku
         },{merge:true})
         .then(doc=>{
-            console.log(doc)
             history.push("/GetProduct");
         })
         e.preventDefault();
@@ -48,7 +50,6 @@ function ProductoEditar(props){
         firebase.db.doc("Productos/"+id)
         .delete()
         .then(doc=>{
-            console.log(doc)
             history.push("/ProductoEliminar");
         })
     }
