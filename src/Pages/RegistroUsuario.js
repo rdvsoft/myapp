@@ -34,9 +34,12 @@ const RegistroUsuario = (props) => {
       e.preventDefault();
   }
   const handleChange = (e)=>{
-
-    const target = e.target;
+    /* Identifico el campo donde está escribiendo el usuario y lo guardo en target */
+    const target = e.target; 
+    /* Capturo cada caracter ingresado en el campo identificado anteriormente con target y lo guardo en value 
+    o sea que la variable value haría de acumulador */
     const value = target.value
+    /* Identifico el nombre del campo que se está modificando y lo guardo en name */
     const name = target.name;
     
     setForm({
